@@ -2,7 +2,7 @@
   <header>
         <h1>{{ title }}</h1>
         <Button 
-            text="+ 名前"
+            text="+ アニメ"
             color="green"
             width="100px"
         />

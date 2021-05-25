@@ -1,7 +1,7 @@
 <template>
     <div class="name-item">
         <div>
-            <div class="name-text">{{ `${name.fullName}` }}</div>
+            <div class="name-text">{{ `${name.title}` }}</div>
             <div class="name-text">{{ `(${name.nihongo})` }}</div>
         </div>
         <div>

@@ -1,5 +1,5 @@
 <template>
-  <Header title='ネームトラッカー'/>
+  <Header title='アニメトラッカー'/>
   <NameList :names="names"/>
 </template>
 
@@ -22,27 +22,27 @@ export default {
     this.names = [
       {
         id: 1,
-        fullName: 'Yuji Itadori',
+        title: 'Yuji Itadori',
         nihongo: '削除'
       },
       {
         id: 2,
-        fullName: 'Midoriya Izuku',
+        title: 'Midoriya Izuku',
         nihongo: '緑谷出久'
       },
       {
         id: 3,
-        fullName: 'Naruto Uzumaki',
+        title: 'Naruto Uzumaki',
         nihongo: 'うずまきナルト'
       },
       {
         id: 4,
-        fullName: 'Licht Bach',
+        title: 'Licht Bach',
         nihongo: 'リヒト・バック'
       },
       {
         id: 5,
-        fullName: 'Ichigo Kurusaki',
+        title: 'Ichigo Kurusaki',
         nihongo: '黒崎一護'
       },
     ]
