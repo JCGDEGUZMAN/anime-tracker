@@ -30,4 +30,8 @@ export default {
         border-bottom: 1px solid #000;
         padding: 1rem;
     }
+
+    h1 {
+        font-size: 35px;
+    }
 </style>

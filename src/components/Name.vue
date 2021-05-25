@@ -36,13 +36,17 @@ export default {
 <style scoped>
 
 .name-item {
-    background-color: #f0e8e8;
-    margin: 0.5rem 0;
+    background-color: #FFF;
+    margin: 1rem 0;
     padding: 1rem;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    box-shadow: -1px 1px 6px 3px rgba(164,156,156,1);
+    -webkit-box-shadow: -1px 1px 6px 3px rgba(164,156,156,1);
+    -moz-box-shadow: -1px 1px 6px 3px rgba(164,156,156,1);
 }
 
 .name-text {
